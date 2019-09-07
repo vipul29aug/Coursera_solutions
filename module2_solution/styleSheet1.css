@@ -1,0 +1,100 @@
+﻿*{
+    box-sizing :border-box;
+}
+.row {
+    width: 100%;
+    padding: 4px;
+    margin : 10px;
+}
+
+@media (min-width :992px){
+    .col-lg-4 {
+       
+        float: left;
+        width: 33.33%;
+       
+
+    }
+}
+
+@media (min-width : 768px) and (max-width : 991px) {
+    .col-md-6 {
+       
+        float: left;
+        width: 50%;
+       
+    }
+
+    .col-sm-12 {
+        width: 100%;
+       float:left;
+    }
+}
+
+@media (max-width : 767px){
+    .col-sm-12 {
+        width: 100%;
+        float: left;
+        
+    }
+}
+
+#Chicken {
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 27px;
+    float: right;
+    top: 0;
+    right: 0;
+    background-color: blue;
+    margin: 0px 0px 60px 0;
+    color : black;
+}
+#Beef {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 27px;
+    position: absolute;
+    float: right;
+    top: 0;
+    right: 0;
+    background-color: red;
+    margin: 0px 0px 60px 0;
+    color :white;
+}
+#Sushi {
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 27px;
+    float: right;
+    top: 0;
+    right: 0;
+    background-color: orange;
+    margin: 0px 0px 60px 0;
+    color:black;
+}
+.article{
+    text-align :justify;
+    padding:15px 15px 0px 5px ;
+    position:relative;
+    font-size:16px;
+    margin-top:40px;
+
+}
+div > h2{
+    margin-top :50px;
+    margin-bottom : 100px;
+    text-align:center;
+
+}
+.sec{
+    padding : 3px;
+    margin-top : 20px;
+    margin-right: 20px;
+    margin-left :20px;
+    background-color:aqua;
+    text-align:justify;
+    position:relative;
+    border :2px solid red;
+
+
+}
