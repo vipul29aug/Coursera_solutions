@@ -11,7 +11,7 @@
     background: url(img/dp.PNG);
     width: 190px;
     height: 160px;
-    margin-left:20px;
+    margin-left: 20px;
 }
 
 #navbar-setting {
@@ -62,7 +62,7 @@ div p span {
 
 #phone {
     margin-top: 5px;
-    margin-right:20px;
+    margin-right: 20px;
 }
 
     #phone a {
@@ -122,5 +122,51 @@ div p span {
         background: url(img/1300.jpg) no-repeat;
         max-width: 100%;
         height: auto;
+    }
+}
+
+#menu_tile, #special_tile, #map_tile {
+    width: 100%;
+    height: 250px;
+    margin-bottom: 15px;
+    position: relative;
+    border: 2px solid #310C1F;
+    overflow: hidden;
+}
+
+    #menu_tile:hover, #special_tile:hover, #map_tile:hover {
+        box-shadow: 0 1px 5px 1px #cccccc;
+    }
+
+#menu_tile {
+    background: url(https://img.buzzfeed.com/buzzfeed-static/static/2016-04/29/16/enhanced/webdr07/anigif_original-24637-1461963461-1.gif) no-repeat;
+    background-position: center;
+}
+
+#special_tile {
+    background: url(http://thisisetccreative.com/wp-content/uploads/2018/04/Mediterranean-Pizza-2.gif) no-repeat;
+    background-position: center;
+}
+
+#map_tile {
+    background-position: center;
+}
+
+    #menu_tile span, #special_tile span, #map_tile span {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        text-align: center;
+        width: 100%;
+        opacity: 0.8;
+        font-size: 1.6em;
+        text-transform: uppercase;
+        color: #fff;
+        background-color: #000;
+    }
+
+@media (max-width :576) {
+    .col-xm-12 {
+        width: 100%;
     }
 }
