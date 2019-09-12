@@ -1,0 +1,126 @@
+﻿
+#body {
+    background-color: #61122f;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#logo {
+    background: url(img/dp.PNG);
+    width: 190px;
+    height: 160px;
+    margin-left:20px;
+}
+
+#navbar-setting {
+    background-color: #f6b319;
+}
+
+.LOGOS a:hover, .LOGOS a:focus {
+    text-decoration: none;
+}
+
+.LOGOS a h1 {
+    text-shadow: 5px,5px,5px,#0026ff;
+    color: green;
+    font-weight: bold;
+    font-family: 'Lora', serif;
+    font-size: 1.5em;
+    line-height: 0.75;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+div p img {
+    margin-top: 6px;
+    padding: 1px;
+}
+
+div p span {
+    margin-top: 3px;
+    padding: 1px;
+}
+
+#nav-list {
+    margin-top: 10px;
+}
+
+    #nav-list a {
+        color: #951C49;
+        text-align: center;
+    }
+
+        #nav-list a :hover {
+            color: #E7E7E7;
+        }
+
+        #nav-list a span {
+            font-size: 1.8em;
+        }
+
+#phone {
+    margin-top: 5px;
+    margin-right:20px;
+}
+
+    #phone a {
+        text-align: right;
+        padding-bottom: 0;
+    }
+
+    #phone div {
+        color: #557c3e;
+        text-align: right;
+        padding-right: 15px;
+    }
+
+.navbar-header, .navbar-header navbar-toggler-icon, navbar-toggler {
+    border: 1px solid #61122f;
+}
+
+#btn-col {
+    border: 1px solid #61122f;
+}
+
+#logo, #btn-col {
+    clear: both;
+}
+
+@media (min-width :769px) and (max-width :1600) {
+    #mob-img {
+        visibility: hidden;
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+#content {
+    background-color: #61122f;
+}
+
+#jumbo {
+    padding: 0px;
+    width: 100%;
+    border: 10px solid #61122f;
+    background-color: #61122f;
+    align-content: center;
+    margin: auto;
+}
+
+@media (min-width :770px) and (max-width :992px) {
+    #jumbo {
+        background: url(img/992.jpg) no-repeat;
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media (min-width :993px) {
+    #jumbo {
+        background: url(img/1300.jpg) no-repeat;
+        max-width: 100%;
+        height: auto;
+    }
+}
